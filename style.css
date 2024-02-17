@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Saiba';
+    src: url(/MonaspaceRadon-SemiWideMedium.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Saiba";
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(206, 119, 49, 1), rgba(49, 206, 115, 1), rgba(121, 46, 209, 1));
+}
+header .menu {
+    text-decoration: none;
+    color: white ;
+    font-size: 18px;
+    font-weight: 700;
+}
+main {
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 15% 28% 4% 45% 8%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 190px;
+    background-color: rgba(121, 46, 209, .5) ;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+main img {
+    grid-column: 2;
+    grid-row: 1 / 7;
+}
+main h1{
+    font-size: 30px;
+    grid-column: 3 / 5;
+    grid-row: 1;
+    padding-top: 20px;
+}
+main .obi{
+    grid-column: 4/6;    
+    align-self: center;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.punkt{
+    grid-column: 3;
+    grid-row: 2;
+    width: 60px;
+}
+.punktl{
+    grid-column: 3;
+    grid-row: 4;
+    width: 60px;
+}
+.tel{
+    display: flex;
+    grid-column: 2;
+    grid-row: 7;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.vk{
+    display: flex;
+    grid-column: 2;
+    grid-row: 8;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.gmail{
+    display: flex;
+    grid-column: 2;
+    grid-row: 9;
+    align-items: center;   
+    margin-bottom: 10px;
+}
+.icon{
+    width: 40px;
+    padding-right: 10px;
+}
+a:hover{
+    color:aqua
+}
+footer{
+    background-color: rgba(49, 206, 115, .5);
+    height: 27px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
